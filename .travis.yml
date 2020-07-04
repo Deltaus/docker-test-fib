@@ -10,3 +10,4 @@ deploy:
   provider: heroku
   app: docker-fib
   api_key: "21f175f3-2fb4-4a44-a17c-07245f811bb6"
+  edge: true
