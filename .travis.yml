@@ -4,5 +4,5 @@ services:
 before_install:
   - docker build -t deltaus/fib-test -f ./client/Dockerfile.dev .
 script:
-  - docker run -e CI=true deltaus/fib-test npm test
+  - docker run -e CI=true deltaus/fib-test npm run test
 language: generic
